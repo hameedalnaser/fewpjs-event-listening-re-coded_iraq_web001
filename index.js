@@ -1,6 +1,4 @@
-function addingEventListener() {
-  alert('hello Recoded');
-}
-
-const input = document.getElementById("input")
-input.addEventListener('onclick', addingEventListener())
+const input = document.getElementById('input');
+input.addEventListener('click', function(event) {
+  alert('I was clicked!');
+});
